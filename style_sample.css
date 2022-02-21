@@ -1,6 +1,7 @@
 /* 
     COMP 333: Software Engineering
-    Sebastian Zimmeck (szimmeck@wesleyan.edu)
+    Kevin Angulo
+    Credit to: Sebastian Zimmeck (szimmeck@wesleyan.edu)
 */
 
 /* 
@@ -102,6 +103,7 @@ a:hover {
 /* 
     For your custom navbar, you can specify the unorderd list style.
 */
+
 .navbar ul {
     /* 
         Remove bullet points.
@@ -118,7 +120,7 @@ a:hover {
     */
     background-color: rgb(20, 201, 233);
     text-align: center;
-}
+    }
 
 /*  
     Style individual list items.
@@ -172,11 +174,12 @@ iframe {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: orange;
+    background-color:blue;
   }
 
 .flex-container > div {
-    background-color: grey;
+    
+    background-color: rgb(206, 38, 221);
     width: 100px;
     margin: 10px;
     text-align: center;
