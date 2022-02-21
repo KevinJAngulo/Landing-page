@@ -99,7 +99,7 @@ p {
     applied to divs.
 */
 a:hover {
-    color:green;
+    color:green; 
 }
 
 /* 
