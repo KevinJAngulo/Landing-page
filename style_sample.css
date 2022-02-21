@@ -1,7 +1,7 @@
 /* 
     COMP 333: Software Engineering
     Kevin Angulo
-    Credit to: Sebastian Zimmeck (szimmeck@wesleyan.edu)
+    Credit to: Sebastian Zimmeck (szimmeck@wesleyan.edu) CS333
 */
 
 /* 
@@ -29,7 +29,9 @@ body {
     All text in paragraphs should be blue.
 */
 p {
+    
     color: black;
+
 }
 
 /* 
@@ -180,9 +182,9 @@ iframe {
 .flex-container > div {
     
     background-color: rgb(206, 38, 221);
-    width: 100px;
+    width: 200px;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 30px;
+    font-size: 20px;
 }

@@ -62,19 +62,18 @@
     The body holds all content that is visible to the user and it determines 
     the structure of your page.
 -->
-<body>
     <!-- 
         Everything between two tags, including the tags, is an element. Headings
         come in six different sizes: <h1></h1> to <h6></h6>. Note that 
         it is not possible to autonumber headings in HTML. You would need to 
         write such functionality yourself.
      -->
-    <h1><center>Song Rater Website!</center></h1>
-    <center>
+     <center>
+    <h1>Song Rater Website!</h1>
     <ul id="navbar" class="navbar">
         <li><a href= "#About-us">About Us</a></li>
         <li><a href ="#Coming-soon">Coming Soon</a></li>
-        <li><a href ="#Resources">Resources</a></li>
+        <li><a href ="#Resources">Other</a></li>
     </ul>
     </center>
                  
@@ -87,25 +86,50 @@
     -->
     <hr>
     <div>
-    <center><img src= "https://c4.wallpaperflare.com/wallpaper/775/504/982/guitar-led-lights-3d-hd-wallpaper-preview.jpg"></center><br>
-    &emsp; During the following weeks, I will be working on this website to bring the user the best experience they can have. <br>
-    &emsp; By the end of the school semester, users will be able to rate their favorite soongs and share their thoughts with everyone else online! We will be creating a safe space for users to review and share their thoughts
+    
+    <center><img src= "https://c4.wallpaperflare.com/wallpaper/775/504/982/guitar-led-lights-3d-hd-wallpaper-preview.jpg" alt="sticker-decorated acoustic guitar with neon lights on its edges placed on wodden floor"></center><br>
+    
+   
+    <h2 id=Coming-soon> Coming soon </h2>
+    &emsp; During the following weeks, I will be working on this website to bring the user the best experience they can have. <br> <br>
+    &emsp; By the end of the school semester, users will be able to rate their favorite soongs (in a 5-star rating system) and share their thoughts with everyone else online! We will be creating a safe space for users to review and share their thoughts
     with one another while discussing about something that unites us all; Music.
     </div>
     <!--
         You can style your site without using CSS just with HTML. Here are some 
         examples.
     -->
-    <h1 id=Resources>Resources</h1>
+    <h2 id=Resources>FAQs</h2>
 
     <div class="flex-container" style="width: 100%;">
-      <div>Let's </div>
-      <div>Rate</div>
-      <div>Some</div>  
-      <div>Music!</div>
+      <div><a href="#1">Could I upload songs to the website?</a></div>
+      <div><a href="#2">How does the membership work?</a></div>
+      <div><a href="#3">Should I worry about my privacy?</a></div>  
+      <div><a href="#4">Who can see the my activity?</a></div>
     </div>
     <br>
+    <p id="1">
+        &emsp;Yes! You will be able to upload any song to the website and rate it so everyone can see what you think about it!
+    </p>
+    <p id="2">
+        &emsp;We will run our website with ads if you decide to use the free version. You'll be able to rate a limited amount of songs 
+        until having to wait certain amount of time to resume your rating. If you decide to instead obtain the premium membership, 
+        the website will run completely add-free and your experience will be limitless in our environment. You'll be the first 
+        to be given updates and rewards as well as the ability to tests and review upcoming features!
+    </p>
+    <p id="3">
+        &emsp;You should not need to worry about your privacy. Although our side runs ads (when free. Check <a href="https://kevinjangulo.github.io/Landing-page/index2.html">Memberships</a>), we do not accept or use third-party cookies to ensure that everything 
+        you do here with us, stays with us.
+    </p>
+    <p id="4">
+        &emsp;The only people who can see your activity are moderators whose job is to matain a safe environment within our platform and whoever you give access to, your friends or followers.
+    </p>
     <iframe src="https://kevinjangulo.github.io/Landing-page/index2.html" name="index2"> </iframe>
-
 </body>
+<footer>
+    <p style="font-family: 'Times New Roman', Times, serif;">Author: Kevin Angulo</p>
+    <p><i>&emsp;This site was designed and published as part of the COMP
+        333 Software Engineering class at Wesleyan University. The described platform is not publicly
+        available but rather is created as a training exercise.</i></p>
+</footer>
 </html>
